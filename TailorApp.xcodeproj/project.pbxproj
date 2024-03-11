@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		70DA7AFB2B9EFB31009C5FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */; };
 		70DA7AFD2B9EFB31009C5FAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */; };
-		70DA7AFF2B9EFB31009C5FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7AFE2B9EFB31009C5FAD /* ViewController.swift */; };
 		70DA7B042B9EFB33009C5FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DA7B032B9EFB33009C5FAD /* Assets.xcassets */; };
 		70DA7B072B9EFB33009C5FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DA7B052B9EFB33009C5FAD /* LaunchScreen.storyboard */; };
 		70DA7B102B9EFC84009C5FAD /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = 70DA7B0F2B9EFC84009C5FAD /* Eureka */; };
@@ -18,16 +17,33 @@
 		70DA7B182B9EFC9A009C5FAD /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 70DA7B172B9EFC9A009C5FAD /* SnapKit-Dynamic */; };
 		70DA7B1B2B9EFCA4009C5FAD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 70DA7B1A2B9EFCA4009C5FAD /* Alamofire */; };
 		70DA7B1D2B9EFCA4009C5FAD /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 70DA7B1C2B9EFCA4009C5FAD /* AlamofireDynamic */; };
+		70DA7B1F2B9EFF1D009C5FAD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B1E2B9EFF1D009C5FAD /* User.swift */; };
+		70DA7B232B9F009D009C5FAD /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B222B9F009D009C5FAD /* TokenResponse.swift */; };
+		70DA7B262B9F0135009C5FAD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B252B9F0135009C5FAD /* NetworkManager.swift */; };
+		70DA7B332B9F0298009C5FAD /* TailorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B322B9F0298009C5FAD /* TailorDetailsViewController.swift */; };
+		70DA7B352B9F02B4009C5FAD /* OrderStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B342B9F02B4009C5FAD /* OrderStatusViewController.swift */; };
+		70DA7B372B9F02C4009C5FAD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B362B9F02C4009C5FAD /* SignInViewController.swift */; };
+		70DA7B392B9F02D6009C5FAD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B382B9F02D6009C5FAD /* SignUpViewController.swift */; };
+		70DA7B3B2B9F034C009C5FAD /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B3A2B9F034C009C5FAD /* WelcomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		70DA7AF72B9EFB31009C5FAD /* TailorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TailorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70DA7AFE2B9EFB31009C5FAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70DA7B032B9EFB33009C5FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70DA7B062B9EFB33009C5FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70DA7B082B9EFB33009C5FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DA7B1E2B9EFF1D009C5FAD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		70DA7B222B9F009D009C5FAD /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		70DA7B252B9F0135009C5FAD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		70DA7B302B9F0252009C5FAD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		70DA7B312B9F0263009C5FAD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		70DA7B322B9F0298009C5FAD /* TailorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailorDetailsViewController.swift; sourceTree = "<group>"; };
+		70DA7B342B9F02B4009C5FAD /* OrderStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatusViewController.swift; sourceTree = "<group>"; };
+		70DA7B362B9F02C4009C5FAD /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		70DA7B382B9F02D6009C5FAD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		70DA7B3A2B9F034C009C5FAD /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,14 +82,55 @@
 		70DA7AF92B9EFB31009C5FAD /* TailorApp */ = {
 			isa = PBXGroup;
 			children = (
-				70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */,
-				70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */,
-				70DA7AFE2B9EFB31009C5FAD /* ViewController.swift */,
+				70DA7B242B9F0104009C5FAD /* Network */,
+				70DA7B202B9EFF28009C5FAD /* Supporting */,
 				70DA7B032B9EFB33009C5FAD /* Assets.xcassets */,
 				70DA7B052B9EFB33009C5FAD /* LaunchScreen.storyboard */,
+				70DA7B2F2B9F0252009C5FAD /* VC */,
 				70DA7B082B9EFB33009C5FAD /* Info.plist */,
+				70DA7B212B9EFF48009C5FAD /* Model */,
 			);
 			path = TailorApp;
+			sourceTree = "<group>";
+		};
+		70DA7B202B9EFF28009C5FAD /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */,
+				70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		70DA7B212B9EFF48009C5FAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70DA7B1E2B9EFF1D009C5FAD /* User.swift */,
+				70DA7B222B9F009D009C5FAD /* TokenResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70DA7B242B9F0104009C5FAD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				70DA7B252B9F0135009C5FAD /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		70DA7B2F2B9F0252009C5FAD /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				70DA7B312B9F0263009C5FAD /* ProfileViewController.swift */,
+				70DA7B302B9F0252009C5FAD /* HomeViewController.swift */,
+				70DA7B322B9F0298009C5FAD /* TailorDetailsViewController.swift */,
+				70DA7B342B9F02B4009C5FAD /* OrderStatusViewController.swift */,
+				70DA7B362B9F02C4009C5FAD /* SignInViewController.swift */,
+				70DA7B382B9F02D6009C5FAD /* SignUpViewController.swift */,
+				70DA7B3A2B9F034C009C5FAD /* WelcomePageViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +217,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70DA7AFF2B9EFB31009C5FAD /* ViewController.swift in Sources */,
+				70DA7B392B9F02D6009C5FAD /* SignUpViewController.swift in Sources */,
+				70DA7B262B9F0135009C5FAD /* NetworkManager.swift in Sources */,
+				70DA7B1F2B9EFF1D009C5FAD /* User.swift in Sources */,
 				70DA7AFB2B9EFB31009C5FAD /* AppDelegate.swift in Sources */,
+				70DA7B3B2B9F034C009C5FAD /* WelcomePageViewController.swift in Sources */,
+				70DA7B352B9F02B4009C5FAD /* OrderStatusViewController.swift in Sources */,
 				70DA7AFD2B9EFB31009C5FAD /* SceneDelegate.swift in Sources */,
+				70DA7B332B9F0298009C5FAD /* TailorDetailsViewController.swift in Sources */,
+				70DA7B232B9F009D009C5FAD /* TokenResponse.swift in Sources */,
+				70DA7B372B9F02C4009C5FAD /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
