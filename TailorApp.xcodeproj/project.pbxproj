@@ -10,9 +10,14 @@
 		70DA7AFB2B9EFB31009C5FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */; };
 		70DA7AFD2B9EFB31009C5FAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */; };
 		70DA7AFF2B9EFB31009C5FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7AFE2B9EFB31009C5FAD /* ViewController.swift */; };
-		70DA7B022B9EFB31009C5FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DA7B002B9EFB31009C5FAD /* Main.storyboard */; };
 		70DA7B042B9EFB33009C5FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DA7B032B9EFB33009C5FAD /* Assets.xcassets */; };
 		70DA7B072B9EFB33009C5FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DA7B052B9EFB33009C5FAD /* LaunchScreen.storyboard */; };
+		70DA7B102B9EFC84009C5FAD /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = 70DA7B0F2B9EFC84009C5FAD /* Eureka */; };
+		70DA7B132B9EFC8D009C5FAD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 70DA7B122B9EFC8D009C5FAD /* Kingfisher */; };
+		70DA7B162B9EFC9A009C5FAD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 70DA7B152B9EFC9A009C5FAD /* SnapKit */; };
+		70DA7B182B9EFC9A009C5FAD /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 70DA7B172B9EFC9A009C5FAD /* SnapKit-Dynamic */; };
+		70DA7B1B2B9EFCA4009C5FAD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 70DA7B1A2B9EFCA4009C5FAD /* Alamofire */; };
+		70DA7B1D2B9EFCA4009C5FAD /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 70DA7B1C2B9EFCA4009C5FAD /* AlamofireDynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +25,6 @@
 		70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		70DA7AFE2B9EFB31009C5FAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		70DA7B012B9EFB31009C5FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70DA7B032B9EFB33009C5FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70DA7B062B9EFB33009C5FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70DA7B082B9EFB33009C5FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +35,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70DA7B1B2B9EFCA4009C5FAD /* Alamofire in Frameworks */,
+				70DA7B1D2B9EFCA4009C5FAD /* AlamofireDynamic in Frameworks */,
+				70DA7B162B9EFC9A009C5FAD /* SnapKit in Frameworks */,
+				70DA7B132B9EFC8D009C5FAD /* Kingfisher in Frameworks */,
+				70DA7B102B9EFC84009C5FAD /* Eureka in Frameworks */,
+				70DA7B182B9EFC9A009C5FAD /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +69,6 @@
 				70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */,
 				70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */,
 				70DA7AFE2B9EFB31009C5FAD /* ViewController.swift */,
-				70DA7B002B9EFB31009C5FAD /* Main.storyboard */,
 				70DA7B032B9EFB33009C5FAD /* Assets.xcassets */,
 				70DA7B052B9EFB33009C5FAD /* LaunchScreen.storyboard */,
 				70DA7B082B9EFB33009C5FAD /* Info.plist */,
@@ -83,6 +92,14 @@
 			dependencies = (
 			);
 			name = TailorApp;
+			packageProductDependencies = (
+				70DA7B0F2B9EFC84009C5FAD /* Eureka */,
+				70DA7B122B9EFC8D009C5FAD /* Kingfisher */,
+				70DA7B152B9EFC9A009C5FAD /* SnapKit */,
+				70DA7B172B9EFC9A009C5FAD /* SnapKit-Dynamic */,
+				70DA7B1A2B9EFCA4009C5FAD /* Alamofire */,
+				70DA7B1C2B9EFCA4009C5FAD /* AlamofireDynamic */,
+			);
 			productName = TailorApp;
 			productReference = 70DA7AF72B9EFB31009C5FAD /* TailorApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,12 @@
 				Base,
 			);
 			mainGroup = 70DA7AEE2B9EFB31009C5FAD;
+			packageReferences = (
+				70DA7B0E2B9EFC84009C5FAD /* XCRemoteSwiftPackageReference "Eureka" */,
+				70DA7B112B9EFC8D009C5FAD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				70DA7B142B9EFC9A009C5FAD /* XCRemoteSwiftPackageReference "SnapKit" */,
+				70DA7B192B9EFCA4009C5FAD /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 70DA7AF82B9EFB31009C5FAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +150,6 @@
 			files = (
 				70DA7B072B9EFB33009C5FAD /* LaunchScreen.storyboard in Resources */,
 				70DA7B042B9EFB33009C5FAD /* Assets.xcassets in Resources */,
-				70DA7B022B9EFB31009C5FAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +169,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		70DA7B002B9EFB31009C5FAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70DA7B012B9EFB31009C5FAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		70DA7B052B9EFB33009C5FAD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +310,6 @@
 				INFOPLIST_FILE = TailorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +336,6 @@
 				INFOPLIST_FILE = TailorApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +373,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		70DA7B0E2B9EFC84009C5FAD /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		70DA7B112B9EFC8D009C5FAD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		70DA7B142B9EFC9A009C5FAD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		70DA7B192B9EFCA4009C5FAD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		70DA7B0F2B9EFC84009C5FAD /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70DA7B0E2B9EFC84009C5FAD /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
+		70DA7B122B9EFC8D009C5FAD /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70DA7B112B9EFC8D009C5FAD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		70DA7B152B9EFC9A009C5FAD /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70DA7B142B9EFC9A009C5FAD /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		70DA7B172B9EFC9A009C5FAD /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70DA7B142B9EFC9A009C5FAD /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		70DA7B1A2B9EFCA4009C5FAD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70DA7B192B9EFCA4009C5FAD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		70DA7B1C2B9EFCA4009C5FAD /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70DA7B192B9EFCA4009C5FAD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 70DA7AEF2B9EFB31009C5FAD /* Project object */;
 }
