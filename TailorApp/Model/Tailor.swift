@@ -7,9 +7,9 @@
 
 import Foundation
 struct Tailor: Codable {
-    var TailorId: Int?
+    var tailorId: Int?
     var gender: String
-    var Consultaion: Bool
+    var consultaion: Bool
     var name: String
     var image: String
     var location: String
