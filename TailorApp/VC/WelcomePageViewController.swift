@@ -4,26 +4,59 @@
 //
 //  Created by Othman Alkous on 3/11/24.
 //
+//
 
 import UIKit
+import SnapKit
 
-class WelcomePageViewController: UIViewController {
+class  WelcomePageViewController: UIViewController {
+
+    var tailorWelcomeImageView = UIImageView()
+    var signInButton = UIButton(type: .system)
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setUpUI()
+        setupViews()
+        AutoLayout()
     }
-    
 
-    /*
-    // MARK: - Navigation
+    func setUpUI() {
+        // Set up tailor welcome image
+        tailorWelcomeImageView.image = UIImage(named: "Tailoring-icon")
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        // Set up sign-in button
+        signInButton.setTitle("Sign In", for: .normal)
+        signInButton.titleLabel?.font = UIFont.systemFont(ofSize: 20)
+        signInButton.addTarget(self, action: #selector(signInButtonTapped), for: .touchUpInside)
     }
-    */
 
+    func setupViews() {
+        view.backgroundColor = .white
+
+        view.addSubview(tailorWelcomeImageView)
+        view.addSubview(signInButton)
+    }
+
+    func AutoLayout() {
+        tailorWelcomeImageView.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview().offset(-100)
+            make.width.equalTo(200)
+            make.height.equalTo(200)
+        }
+
+        signInButton.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.top.equalTo(tailorWelcomeImageView.snp.bottom).offset(50)
+            make.width.equalToSuperview().multipliedBy(0.6)
+            make.height.equalTo(50)
+        }
+    }
+
+    @objc func signInButtonTapped() {
+        let signInVC = SignInViewController()
+        navigationController?.pushViewController(signInVC, animated: true)
+    }
 }

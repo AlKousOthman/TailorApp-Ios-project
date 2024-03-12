@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		139CD8262B9F22D400DD2F88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B302B9F0252009C5FAD /* HomeViewController.swift */; };
+		139CD8282BA04DE900DD2F88 /* MainTapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CD8272BA04DE900DD2F88 /* MainTapBarController.swift */; };
 		70DA7AFB2B9EFB31009C5FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */; };
 		70DA7AFD2B9EFB31009C5FAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */; };
 		70DA7B042B9EFB33009C5FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DA7B032B9EFB33009C5FAD /* Assets.xcassets */; };
@@ -28,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		139CD8272BA04DE900DD2F88 /* MainTapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTapBarController.swift; sourceTree = "<group>"; };
 		70DA7AF72B9EFB31009C5FAD /* TailorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TailorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 				70DA7B362B9F02C4009C5FAD /* SignInViewController.swift */,
 				70DA7B382B9F02D6009C5FAD /* SignUpViewController.swift */,
 				70DA7B3A2B9F034C009C5FAD /* WelcomePageViewController.swift */,
+				139CD8272BA04DE900DD2F88 /* MainTapBarController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -224,6 +228,8 @@
 				70DA7B3B2B9F034C009C5FAD /* WelcomePageViewController.swift in Sources */,
 				70DA7B352B9F02B4009C5FAD /* OrderStatusViewController.swift in Sources */,
 				70DA7AFD2B9EFB31009C5FAD /* SceneDelegate.swift in Sources */,
+				139CD8262B9F22D400DD2F88 /* HomeViewController.swift in Sources */,
+				139CD8282BA04DE900DD2F88 /* MainTapBarController.swift in Sources */,
 				70DA7B332B9F0298009C5FAD /* TailorDetailsViewController.swift in Sources */,
 				70DA7B232B9F009D009C5FAD /* TokenResponse.swift in Sources */,
 				70DA7B372B9F02C4009C5FAD /* SignInViewController.swift in Sources */,

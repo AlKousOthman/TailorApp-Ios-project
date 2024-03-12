@@ -9,6 +9,6 @@ import Foundation
 struct User: Codable {
     var userName: String
     var phoneNumber: String
-    var passwprd: String
+    var password: String
     
 }
