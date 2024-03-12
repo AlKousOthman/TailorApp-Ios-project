@@ -8,6 +8,8 @@
 import UIKit
 
 class TailorDetailsViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
