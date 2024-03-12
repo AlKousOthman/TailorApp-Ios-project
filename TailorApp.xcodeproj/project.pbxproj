@@ -28,6 +28,7 @@
 		70DA7B3D2B9F0C3B009C5FAD /* Tailor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B3C2B9F0C3B009C5FAD /* Tailor.swift */; };
 		70DA7B3F2B9F0C4E009C5FAD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B3E2B9F0C4E009C5FAD /* Request.swift */; };
 		70DA7B412B9F0CC3009C5FAD /* ClothingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B402B9F0CC3009C5FAD /* ClothingType.swift */; };
+		70DA7B432B9F1457009C5FAD /* FilterTailorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B422B9F1457009C5FAD /* FilterTailorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		70DA7B3C2B9F0C3B009C5FAD /* Tailor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tailor.swift; sourceTree = "<group>"; };
 		70DA7B3E2B9F0C4E009C5FAD /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		70DA7B402B9F0CC3009C5FAD /* ClothingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingType.swift; sourceTree = "<group>"; };
+		70DA7B422B9F1457009C5FAD /* FilterTailorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTailorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				70DA7B362B9F02C4009C5FAD /* SignInViewController.swift */,
 				70DA7B382B9F02D6009C5FAD /* SignUpViewController.swift */,
 				70DA7B3A2B9F034C009C5FAD /* WelcomePageViewController.swift */,
+				70DA7B422B9F1457009C5FAD /* FilterTailorViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				70DA7B3F2B9F0C4E009C5FAD /* Request.swift in Sources */,
 				70DA7B262B9F0135009C5FAD /* NetworkManager.swift in Sources */,
 				70DA7B1F2B9EFF1D009C5FAD /* User.swift in Sources */,
+				70DA7B432B9F1457009C5FAD /* FilterTailorViewController.swift in Sources */,
 				70DA7AFB2B9EFB31009C5FAD /* AppDelegate.swift in Sources */,
 				70DA7B3B2B9F034C009C5FAD /* WelcomePageViewController.swift in Sources */,
 				70DA7B412B9F0CC3009C5FAD /* ClothingType.swift in Sources */,
