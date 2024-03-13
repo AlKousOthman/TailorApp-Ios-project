@@ -8,11 +8,13 @@
 
 import UIKit
 import SnapKit
+import UIKit
 
-class  WelcomePageViewController: UIViewController {
+class WelcomePageViewController: UIViewController {
 
     var tailorWelcomeImageView = UIImageView()
     var signInButton = UIButton(type: .system)
+    var headerLabel = UILabel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,23 +28,40 @@ class  WelcomePageViewController: UIViewController {
         
         tailorWelcomeImageView.image = UIImage(named: "Tailoring-icon")
 
-       
         signInButton.setTitle("Sign In", for: .normal)
         signInButton.titleLabel?.font = UIFont.systemFont(ofSize: 20)
         signInButton.addTarget(self, action: #selector(signInButtonTapped), for: .touchUpInside)
+        
+        
+        headerLabel.text = "WELCOME TO TAILOR EXPRESS"
+        
+        headerLabel.font = UIFont.boldSystemFont(ofSize: 24)
+        headerLabel.textColor = .systemBlue
+        headerLabel.textAlignment = .center
+        
+    
+        
     }
 
     func setupViews() {
+       
         view.backgroundColor = .white
-
+        view.addSubview(headerLabel)
         view.addSubview(tailorWelcomeImageView)
         view.addSubview(signInButton)
     }
 
     func AutoLayout() {
+        headerLabel.snp.makeConstraints { make in
+            make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(20)
+            make.centerX.equalToSuperview()
+            make.height.equalTo(30)
+            make.width.equalToSuperview()
+        }
+        
         tailorWelcomeImageView.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
-            make.centerY.equalToSuperview().offset(-100)
+            make.centerY.equalToSuperview().offset(-50) 
             make.width.equalTo(200)
             make.height.equalTo(200)
         }
@@ -60,3 +79,4 @@ class  WelcomePageViewController: UIViewController {
         navigationController?.pushViewController(signInVC, animated: true)
     }
 }
+

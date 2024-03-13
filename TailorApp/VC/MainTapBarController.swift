@@ -26,7 +26,6 @@ class MainTabBarController: UITabBarController {
         homeViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
         homeViewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house.circle"), selectedImage: UIImage(systemName: "house.circle.fill"))
         
-        
         let orderStatusViewController = OrderStatusViewController()
         orderStatusViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
         orderStatusViewController.tabBarItem = UITabBarItem(title: "Order", image: UIImage(systemName: "note.text.badge.plus"), selectedImage: UIImage(systemName: "note.text.badge.plus.fill"))
