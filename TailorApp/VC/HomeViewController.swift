@@ -11,12 +11,6 @@ import SnapKit
 // Snapkit?
 // TableView?
 
-struct TailorList {
-    let name: String
-    let rating: Double
-    let profileImage: UIImage
-}
-
 class HomeViewController: UIViewController, UISearchBarDelegate {
 
     var tableView = UITableView()
