@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		139CD8262B9F22D400DD2F88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B302B9F0252009C5FAD /* HomeViewController.swift */; };
 		139CD8282BA04DE900DD2F88 /* MainTapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CD8272BA04DE900DD2F88 /* MainTapBarController.swift */; };
+		139CD82A2BA18FBE00DD2F88 /* TailorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CD8292BA18FBE00DD2F88 /* TailorCell.swift */; };
 		70DA7AFB2B9EFB31009C5FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */; };
 		70DA7AFD2B9EFB31009C5FAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */; };
 		70DA7B042B9EFB33009C5FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DA7B032B9EFB33009C5FAD /* Assets.xcassets */; };
@@ -32,10 +33,12 @@
 		70DA7B412B9F0CC3009C5FAD /* ClothingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B402B9F0CC3009C5FAD /* ClothingType.swift */; };
 		B54EEED42BA037430088E915 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B312B9F0263009C5FAD /* ProfileViewController.swift */; };
 		B54EEED62BA04FBE0088E915 /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EEED52BA04FBE0088E915 /* MeasureViewController.swift */; };
+		70DA7B432B9F1457009C5FAD /* FilterTailorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B422B9F1457009C5FAD /* FilterTailorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		139CD8272BA04DE900DD2F88 /* MainTapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTapBarController.swift; sourceTree = "<group>"; };
+		139CD8292BA18FBE00DD2F88 /* TailorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailorCell.swift; sourceTree = "<group>"; };
 		70DA7AF72B9EFB31009C5FAD /* TailorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TailorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DA7AFA2B9EFB31009C5FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70DA7AFC2B9EFB31009C5FAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		70DA7B3E2B9F0C4E009C5FAD /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		70DA7B402B9F0CC3009C5FAD /* ClothingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingType.swift; sourceTree = "<group>"; };
 		B54EEED52BA04FBE0088E915 /* MeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
+		70DA7B422B9F1457009C5FAD /* FilterTailorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTailorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +150,8 @@
 				70DA7B3A2B9F034C009C5FAD /* WelcomePageViewController.swift */,
 				B54EEED52BA04FBE0088E915 /* MeasureViewController.swift */,
 				139CD8272BA04DE900DD2F88 /* MainTapBarController.swift */,
-
+				70DA7B422B9F1457009C5FAD /* FilterTailorViewController.swift */,
+				139CD8292BA18FBE00DD2F88 /* TailorCell.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -239,8 +244,10 @@
 				70DA7B3F2B9F0C4E009C5FAD /* Request.swift in Sources */,
 				70DA7B262B9F0135009C5FAD /* NetworkManager.swift in Sources */,
 				B54EEED62BA04FBE0088E915 /* MeasureViewController.swift in Sources */,
+				139CD82A2BA18FBE00DD2F88 /* TailorCell.swift in Sources */,
 				70DA7B1F2B9EFF1D009C5FAD /* User.swift in Sources */,
 				B54EEED42BA037430088E915 /* ProfileViewController.swift in Sources */,
+				70DA7B432B9F1457009C5FAD /* FilterTailorViewController.swift in Sources */,
 				70DA7AFB2B9EFB31009C5FAD /* AppDelegate.swift in Sources */,
 				70DA7B3B2B9F034C009C5FAD /* WelcomePageViewController.swift in Sources */,
 				70DA7B412B9F0CC3009C5FAD /* ClothingType.swift in Sources */,

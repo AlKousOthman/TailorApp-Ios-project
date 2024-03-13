@@ -19,7 +19,7 @@ class MeasureViewController: UIViewController {
         setupUI()
         AutoLayout()
         
-        // Do any additional setup after loading the view.
+
     }
     
     func subview(){

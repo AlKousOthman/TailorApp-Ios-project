@@ -11,6 +11,7 @@ import SnapKit
 import Kingfisher
 import Alamofire
 
+
 class SignUpViewController: UIViewController {
     
     let nameTextField = UITextField()
