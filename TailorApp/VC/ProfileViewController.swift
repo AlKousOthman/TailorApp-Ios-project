@@ -26,7 +26,7 @@ class ProfileViewController: UIViewController {
         AutoLayout()
 
         
-        let placeholderImage = UIImage(named: "profileimage") // Placeholder image
+        let placeholderImage = UIImage(named: "profileimage") 
             userImage.image = placeholderImage
             
             nameLabel.text = "razan alshatti"
@@ -74,7 +74,7 @@ class ProfileViewController: UIViewController {
         // Signout Button
         signoutButton.setImage(powerImage, for: .normal)
         signoutButton.backgroundColor = .lightGray
-        signoutButton.tintColor = .black // Change the color of the symbol
+        signoutButton.tintColor = .black 
         signoutButton.layer.cornerRadius = 10
         signoutButton.layer.borderWidth = 1
         signoutButton.layer.borderColor = UIColor.white.cgColor

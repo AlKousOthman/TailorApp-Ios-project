@@ -12,25 +12,26 @@ class MainTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         setupViewControllers()
     }
     
     func setupViewControllers() {
         let homeViewController = HomeViewController()
         homeViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
-        homeViewController.tabBarItem = UITabBarItem(title: "First", image: UIImage(systemName: "house.circle"), selectedImage: UIImage(systemName: "house.circle.fill"))
+        homeViewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house.circle"), selectedImage: UIImage(systemName: "house.circle.fill"))
         
         
         let orderStatusViewController = OrderStatusViewController()
         orderStatusViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
-        orderStatusViewController.tabBarItem = UITabBarItem(title: "Second", image: UIImage(systemName: "purchased.circle"), selectedImage: UIImage(systemName: "purchased.circle.fill"))
+        orderStatusViewController.tabBarItem = UITabBarItem(title: "Order", image: UIImage(systemName: "note.text.badge.plus"), selectedImage: UIImage(systemName: "note.text.badge.plus.fill"))
         
-//        let profileViewController = ProfileViewController()
-//        profileViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
-//        profileViewController.tabBarItem = UITabBarItem(title: "Third", image: UIImage(systemName: "profile"), selectedImage: UIImage(systemName: "profile.fill"))
+        let profileViewController = ProfileViewController()
+        profileViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
+        profileViewController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person.crop.circle"), selectedImage: UIImage(systemName: "person.crop.circle.fill"))
         
         
-        viewControllers = [homeViewController, orderStatusViewController]
+        viewControllers = [homeViewController, orderStatusViewController,profileViewController]
     }
     
 }
