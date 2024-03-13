@@ -24,8 +24,7 @@ class ProfileViewController: UIViewController {
         setUpUI()
         setupViews()
         AutoLayout()
-
-        
+  
         let placeholderImage = UIImage(named: "profileimage") 
             userImage.image = placeholderImage
             
@@ -35,8 +34,6 @@ class ProfileViewController: UIViewController {
             phoneLabel.text = "+965 94010640"
             addressLabel.text = "123 Street, Kuwait City"
 
-        
-       
         // Do any additional setup after loading the view.
     }
     

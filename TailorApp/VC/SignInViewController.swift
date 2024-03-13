@@ -106,20 +106,21 @@ class SignInViewController: UIViewController {
         
         let tapView = MainTabBarController()
         //you may need to pass some data
-        tapView.modalPresentationStyle = .fullScreen
-        self.present(tapView, animated: true)
+        navigationController?.pushViewController(tapView, animated: true)
+
+       // tapView.modalPresentationStyle = .fullScreen
+       // self.present(tapView, animated: true)
     }
     
     @objc func signInButtonTapped() {
 //        let homeVC = HomeViewController()
 //        homeVC.modalPresentationStyle = .fullScreen
 //        navigationController?.pushViewController(homeVC, animated: true)
-        
         //add the UITapbar to the naviga
         let tapView = MainTabBarController()
         //you may need to pass some data
-        tapView.modalPresentationStyle = .fullScreen
-        self.present(tapView, animated: true)
+        navigationController?.pushViewController(tapView, animated: true)
+
     }
 }
 

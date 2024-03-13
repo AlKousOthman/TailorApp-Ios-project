@@ -6,6 +6,8 @@
 //
 
 import Foundation
+
+
 struct Tailor: Codable {
     var tailorId: Int?
     var gender: String
