@@ -23,10 +23,10 @@ class  WelcomePageViewController: UIViewController {
     }
 
     func setUpUI() {
-        // Set up tailor welcome image
+        
         tailorWelcomeImageView.image = UIImage(named: "Tailoring-icon")
 
-        // Set up sign-in button
+       
         signInButton.setTitle("Sign In", for: .normal)
         signInButton.titleLabel?.font = UIFont.systemFont(ofSize: 20)
         signInButton.addTarget(self, action: #selector(signInButtonTapped), for: .touchUpInside)
