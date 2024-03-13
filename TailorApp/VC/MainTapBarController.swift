@@ -13,24 +13,24 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViewControllers()
+        
+        let homeVC = HomeViewController()
+        homeVC.modalPresentationStyle = .fullScreen
+        navigationController?.pushViewController(homeVC, animated: true)
     }
     
     func setupViewControllers() {
-        let homeViewController = HomeViewController()
-        homeViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
-        homeViewController.tabBarItem = UITabBarItem(title: "First", image: UIImage(systemName: "house.circle"), selectedImage: UIImage(systemName: "house.circle.fill"))
-        
-        
-        let orderStatusViewController = OrderStatusViewController()
-        orderStatusViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
+             let homeViewController = HomeViewController()
+             let orderStatusViewController = OrderStatusViewController()
+             let profileViewController = ProfileViewController()
+             
+        homeViewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house.circle"), selectedImage: UIImage(systemName: "house.circle.fill"))
+            
         orderStatusViewController.tabBarItem = UITabBarItem(title: "Second", image: UIImage(systemName: "purchased.circle"), selectedImage: UIImage(systemName: "purchased.circle.fill"))
-        
-//        let profileViewController = ProfileViewController()
-//        profileViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
-//        profileViewController.tabBarItem = UITabBarItem(title: "Third", image: UIImage(systemName: "profile"), selectedImage: UIImage(systemName: "profile.fill"))
-        
-        
-        viewControllers = [homeViewController, orderStatusViewController]
-    }
+            
+        profileViewController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "profile"), selectedImage: UIImage(systemName: "profile.fill"))
+             
+             viewControllers = [homeViewController, orderStatusViewController, profileViewController]
+         }
     
 }
