@@ -30,9 +30,9 @@
 		70DA7B3D2B9F0C3B009C5FAD /* Tailor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B3C2B9F0C3B009C5FAD /* Tailor.swift */; };
 		70DA7B3F2B9F0C4E009C5FAD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B3E2B9F0C4E009C5FAD /* Request.swift */; };
 		70DA7B412B9F0CC3009C5FAD /* ClothingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B402B9F0CC3009C5FAD /* ClothingType.swift */; };
+		70DA7B432B9F1457009C5FAD /* FilterTailorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B422B9F1457009C5FAD /* FilterTailorViewController.swift */; };
 		B54EEED42BA037430088E915 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B312B9F0263009C5FAD /* ProfileViewController.swift */; };
 		B54EEED62BA04FBE0088E915 /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EEED52BA04FBE0088E915 /* MeasureViewController.swift */; };
-		70DA7B432B9F1457009C5FAD /* FilterTailorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B422B9F1457009C5FAD /* FilterTailorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,8 +56,8 @@
 		70DA7B3C2B9F0C3B009C5FAD /* Tailor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tailor.swift; sourceTree = "<group>"; };
 		70DA7B3E2B9F0C4E009C5FAD /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		70DA7B402B9F0CC3009C5FAD /* ClothingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingType.swift; sourceTree = "<group>"; };
-		B54EEED52BA04FBE0088E915 /* MeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
 		70DA7B422B9F1457009C5FAD /* FilterTailorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTailorViewController.swift; sourceTree = "<group>"; };
+		B54EEED52BA04FBE0088E915 /* MeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +148,6 @@
 				70DA7B3A2B9F034C009C5FAD /* WelcomePageViewController.swift */,
 				B54EEED52BA04FBE0088E915 /* MeasureViewController.swift */,
 				139CD8272BA04DE900DD2F88 /* MainTapBarController.swift */,
-
 				70DA7B422B9F1457009C5FAD /* FilterTailorViewController.swift */,
 			);
 			path = VC;
