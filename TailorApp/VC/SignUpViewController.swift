@@ -12,7 +12,7 @@ import Kingfisher
 import Alamofire
 
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: FormViewController {
 //    
 //    let nameTextField = UITextField()
 //    let usernameTextField = UITextField()
@@ -83,17 +83,13 @@ class SignUpViewController: UIViewController {
         <<< ButtonRow() { row in
             row.title = "Sign Up"
             row.onCellSelection { cell, row in
-                self.signUpAction()
+                //self.signUpAction()
             }
         }
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(signUpAction))
+//        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(signUpAction))
     }
         }
         
     
-    @objc func registerButtonTapped() {
-        let registerVC = SignUpViewController()
-        navigationController?.pushViewController(registerVC, animated: true)
-    }
-}
+
