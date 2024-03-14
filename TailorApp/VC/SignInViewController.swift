@@ -100,28 +100,45 @@ class SignInViewController: UIViewController {
     }
     
     @objc func registerHereButtonTapped() {
-//        let registerVC = HomeViewController()
-//        registerVC.modalPresentationStyle = .fullScreen
-//        navigationController?.pushViewController(registerVC, animated: true)
-        
-        let tapView = MainTabBarController()
-        //you may need to pass some data
-        navigationController?.pushViewController(tapView, animated: true)
+        let registerVC = SignUpViewController()
+        registerVC.modalPresentationStyle = .fullScreen
+       navigationController?.pushViewController(registerVC, animated: true)
+   
 
        // tapView.modalPresentationStyle = .fullScreen
        // self.present(tapView, animated: true)
     }
     
     @objc func signInButtonTapped() {
-//        let homeVC = HomeViewController()
-//        homeVC.modalPresentationStyle = .fullScreen
-//        navigationController?.pushViewController(homeVC, animated: true)
-        //add the UITapbar to the naviga
-        let tapView = MainTabBarController()
-        //you may need to pass some data
-        navigationController?.pushViewController(tapView, animated: true)
+        let username = usernameTextField.text ?? ""
+        let password = passwordTextField.text ?? ""
+        
+        NetworkManager.shared.signIn(username: username , password:password ) {
+            success in
+                        DispatchQueue.main.async {
+                            switch success {
+                            case .success(let tokenResponse):
+                                print("Sign In successful. Token: \(tokenResponse.token)")
+                                                            
+                                let homeVC = HomeViewController()
+                                homeVC.modalPresentationStyle = .fullScreen
+                                self.navigationController?.pushViewController(homeVC, animated: true)
+                               
+                                let tapView = MainTabBarController()
+                                //you may need to pass some data
+                                self.navigationController?.pushViewController(tapView, animated: true)
+                                
+                            case .failure(let error):
+                                print("Sign In failed. Error: \(error.localizedDescription)")
+                                
+                            }
+                        }
+        }
+        
+        
 
     }
+    
 }
 
 // use switch func if case success enter thus func  let tapView = MainTabBarController()
